@@ -1,0 +1,19 @@
+Data Extraction and NLP:
+First I just did web scraping all the articles using beautifulsoup and saved them each in a text file and save it in a folder
+Then i just combined all the stopwords text file into one and then removed the punctuation marks and saved it as a text file
+And then i just removed all the stopwords from each text file and stored that in a new folder
+And then i just started calculating all the variables to be found by iterating through each text file
+For positive score,negative score i just iterated every word in the text file given for positive and negative words and calculated it
+And using that polarity score and subjectivity score is calculated
+For calculating analysis of readability i went through every text file and calculated it
+And for word count to remove the punctuation i used string library
+And for syllable count and pronoun count is done using a dictionary called cmudict which is similar to stopwords in nltk library
+And after calculating everything for each text file it is stored in a csv file with index as filename and done
+
+This the instructions on how to run the  file:
+To run the file open jupyter notebook and run every cell
+
+Dependencies:
+Beatifulsoup4
+Jupyter notebook
+nltk
